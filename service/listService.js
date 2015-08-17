@@ -1,4 +1,4 @@
-var verbDao = require('/app/data/VerbDao.js');
+var verbDao = require('../data/VerbDao.js');
 
 exports.listService = function(router){
 
