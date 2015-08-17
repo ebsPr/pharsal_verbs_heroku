@@ -5,7 +5,7 @@ var verbDao = (function(){
 
     var random = require("random-js")();
     var Q = require('q');
-    var databaseConfig = require("./databaseConfig.js");
+    var databaseConfig = require(__dirname +"/data/databaseConfig.js");
     databaseConfig.connectDB();
 
 
