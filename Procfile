@@ -1,2 +1,1 @@
-web: node server.js
-fileformat=unix
+web: node ./bin/www
