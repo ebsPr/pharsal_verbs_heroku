@@ -3,8 +3,8 @@
     "use strict";
 
      var config = require('./config.js');
-     var randomService = require('./service/randomService.js');
-     var listService = require('./service/listService.js');
+     var randomService = require('./randomService.js');
+     //var listService = require('./service/listService.js');
 
      var app = config.initApp();
 
